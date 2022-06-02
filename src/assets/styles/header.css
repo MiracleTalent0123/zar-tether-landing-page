@@ -4,6 +4,7 @@
 }
 
 .nav-item {
+  padding-left: 30px;
   font-family: Outfit;
 }
 
@@ -236,5 +237,9 @@
 
   .logo-img {
     width: 150px;
+  }
+
+  .nav-item {
+    padding-left: 0;
   }
 }
