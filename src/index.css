@@ -1,0 +1,52 @@
+@import "./assets/styles/index.css";
+
+body {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* font-size: 18px; */
+  position: relative;
+  background-color: #fce9ac56;
+}
+
+p {
+  color: #586871;
+}
+
+.font-outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+a:hover {
+  color: #b452df !important;
+}
+
+.container {
+  max-width: 1520px !important;
+  padding: 0 100px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 20px;
+  }
+}
