@@ -24,7 +24,7 @@ const Home = () => {
                 </button>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 col-10 mt-lg-0 mt-4 pt-lg-0 pt-4 m-auto">
+            <div className="col-lg-4 col-sm-6 col-10 mt-lg-0 mt-4 pt-lg-0 pt-4 m-auto m-lg-0">
               <img src={Image1} className="w-100" alt="coin" />
             </div>
           </div>
@@ -33,7 +33,7 @@ const Home = () => {
       <div className="section section-2">
         <div className="container">
           <div className="d-flex flex-wrap align-items-center justify-content-between">
-            <div className="col-lg-5 col-sm-6 col-10 m-auto">
+            <div className="col-lg-5 col-sm-6 col-10 m-auto m-lg-0">
               <img src={Image2} className="w-100" alt="coin" />
             </div>
             <div className="col-lg-5 col-12 mt-lg-0 mt-4 pt-lg-0 pt-4">
@@ -73,7 +73,7 @@ const Home = () => {
                 <button className="outline">Go to Transparency Page</button>
               </div>
             </div>
-            <div className="col-lg-5 col-sm-6 col-10 mt-lg-0 mt-4 pt-lg-0 pt-4 m-auto">
+            <div className="col-lg-5 col-sm-6 col-10 mt-lg-0 mt-4 pt-lg-0 pt-4 m-auto m-lg-0">
               <img src={Image1} className="w-100" alt="coin" />
             </div>
           </div>
